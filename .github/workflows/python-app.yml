@@ -29,7 +29,7 @@ jobs:
         pip install -r requirements.txt ; pylint **/*.py
     - name: Run Pylint
       run: |
-          pylint test.py
+          python test.py
           
     - name: Test with pytest
       run: |
